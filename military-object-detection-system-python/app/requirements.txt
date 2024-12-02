@@ -1,0 +1,11 @@
+flask
+flask-cors
+opencv-python
+numpy
+ultralytics
+tempfile
+requests
+scipy
+eventlet
+greenlet
+flask-socketio
