@@ -421,7 +421,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 👨‍💻 Author
 
-Your Name - [Your GitHub Profile](https://github.com/yourusername)
+Your Name - [Your GitHub Profile](https://github.com/ArtemCS50)
 
 ## 🙏 Acknowledgments
 
@@ -429,11 +429,6 @@ Your Name - [Your GitHub Profile](https://github.com/yourusername)
 - Spring Boot team for the excellent backend framework
 - React team for the frontend library
 - OpenCV community for computer vision tools
-
-## 📧 Contact
-
-For questions or support, please open an issue on GitHub or contact [your-email@example.com]
-
 ---
 
 **Note**: This is a portfolio project demonstrating full-stack development, machine learning integration, and microservices architecture. The model training data and specifics are not included in this repository.
