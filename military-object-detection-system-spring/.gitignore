@@ -31,3 +31,12 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Application Properties (contains sensitive data) ###
+application.properties
+application-*.properties
+
+### Videos and uploads ###
+src/main/java/com/example/militaryobjectdetectionsystem/videos/*
+!src/main/java/com/example/militaryobjectdetectionsystem/videos/.gitkeep
+

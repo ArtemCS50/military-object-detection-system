@@ -14,8 +14,10 @@ app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "http://localhost:3000"}})
 socketio = SocketIO(app, cors_allowed_origins="http://localhost:3000")
 
-# Ініціалізація YOLO моделі
-model = YOLO('/Education/testYOLO/venv/Lib/site-packages/pip/best.pt')
+# Initialize YOLO model
+# Note: Place your trained model file (best.pt) in the app directory
+MODEL_PATH = os.path.join(os.path.dirname(__file__), 'best.pt')
+model = YOLO(MODEL_PATH)
 
 class_colors = {}
 tracked_objects = defaultdict(lambda: deque(maxlen=5))
